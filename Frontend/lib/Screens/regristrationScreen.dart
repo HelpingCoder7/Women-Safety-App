@@ -26,7 +26,6 @@ class RegistrationForm extends StatelessWidget {
       padding: const EdgeInsets.all(16.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           TextField(
             decoration: InputDecoration(labelText: "Full Name"),
