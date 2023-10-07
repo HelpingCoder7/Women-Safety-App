@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:women_safety_app/Screens/homeScreen.dart';
+// ignore: unused_import
 import 'package:women_safety_app/Screens/loginScreen.dart';
+// ignore: unused_import
 import 'package:women_safety_app/Screens/regristrationScreen.dart';
 
 class BottomNavigation extends StatefulWidget {
@@ -12,7 +14,7 @@ class BottomNavigation extends StatefulWidget {
 
 class _BottomNavigationState extends State<BottomNavigation> {
   int index_color = 0;
-  List screens = [Home(),Home(),Home(),Home()];
+  List screens = [const Home(),const Home(),const Home(),const Home()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,7 +39,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
                   size: 30,
                   color: index_color == 0 ? Color(0xff368983) : Colors.grey,
                 )),
-            SizedBox(
+            const SizedBox(
               width: 20,
             ),
             GestureDetector(
@@ -51,7 +53,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
                   size: 30,
                   color: index_color == 1 ? Color(0xff368983) : Colors.grey,
                 )),
-            SizedBox(
+            const SizedBox(
               width: 50,
             ),
             GestureDetector(
@@ -65,7 +67,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
                   size: 30,
                   color: index_color == 2 ? Color(0xff368983) : Colors.grey,
                 )),
-            SizedBox(
+            const SizedBox(
               width: 20,
             ),
             GestureDetector(

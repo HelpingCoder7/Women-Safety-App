@@ -1,7 +1,7 @@
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 
-import '../Widgets/bottom_navigation.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
